@@ -12,6 +12,8 @@ header{
 }
 header h1{
     color: rgb(78, 78, 78);
+    font-family: "Nerko One", cursive;
+    font-size: 50px;
    }
 nav {
     background: linear-gradient(
@@ -30,12 +32,16 @@ nav ul{
 nav ul li {
     transition: 0.3s;
     cursor: pointer;
-    color: bisque;
+    color: rgb(78, 78, 78);
     list-style: none;
+    font-size: 20px;
     
 }
 nav ul li :hover{
-    font-size: 20px;
+    font-size: 25px;
     transition: 0.3s;
-    padding: 10px 10px 22px 10px;
+    
+}
+nav a{
+    color: rgb(78, 78, 78);
 }
